@@ -10,7 +10,9 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "DynaPuff", sans-serif;
-  width: 50%;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav ul {
@@ -36,6 +38,7 @@ body {
 .home {
   color: white;
   text-align: center;
+  display: block;
 }
 
 
