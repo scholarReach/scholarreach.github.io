@@ -10,18 +10,16 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "Poppins", sans-serif;
-  margin: auto;
-  width: 50%;
+  width: auto;
 }
 
 .nav ul {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
   position: fixed;
   top: 0;
-  width: 100%;
   text-align: center;
 }
 
