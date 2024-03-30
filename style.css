@@ -10,6 +10,9 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "DynaPuff", sans-serif;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
 }
 
 .nav ul {
@@ -21,7 +24,6 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  display: inline;
 }
 
 .nav li a {
