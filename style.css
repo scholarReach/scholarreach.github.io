@@ -13,6 +13,8 @@ body {
   float: left;
   display: inline-block;
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav ul {
