@@ -10,10 +10,8 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "DynaPuff", sans-serif;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  align-items: center;
+  float: left;
+  display: inline;
 }
 
 .nav ul {
@@ -24,7 +22,9 @@ body {
   background-color: #fc048c;
   position: fixed;
   top: 0;
-  display: inline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav li a {
