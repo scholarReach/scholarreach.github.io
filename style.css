@@ -40,7 +40,8 @@ body {
 .home {
   color: white;
   text-align: center;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 
