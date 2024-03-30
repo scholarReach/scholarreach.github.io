@@ -10,9 +10,9 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "DynaPuff", sans-serif;
-  overflow-x: hidden;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
+  display: inline-block;
+  width: 100%;
 }
 
 .nav ul {
@@ -24,10 +24,12 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  float: left;
+  display: inline-block;
 }
 
 .nav li a {
-  display: inline-block;
+  display: block;
   float: left;
   color: white;
   text-align: center;
@@ -38,7 +40,6 @@ body {
 .home {
   color: white;
   text-align: center;
-  display: block;
 }
 
 
