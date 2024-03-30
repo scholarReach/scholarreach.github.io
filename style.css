@@ -12,6 +12,7 @@ body {
   font-family: "DynaPuff", sans-serif;
   float: left;
   display: inline;
+  width: auto;
 }
 
 .nav ul {
