@@ -24,7 +24,7 @@ body {
 }
 
 .nav li a {
-  display: block;
+  display: inline-block;
   float: left;
   color: white;
   text-align: center;
@@ -35,7 +35,6 @@ body {
 .home {
   color: white;
   text-align: center;
-  width: auto;
 }
 
 
