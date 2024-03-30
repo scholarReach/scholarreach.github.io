@@ -41,15 +41,12 @@ body {
   color: white;
   text-align: center;
   display: flex;
+  clear: both;
   align-items: center;
   position: relative;
   padding: 10px;
 }
 
-.home h1 p {
-  display: block;
-  position: relative;
-}
 
 
 
