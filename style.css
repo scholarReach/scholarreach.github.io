@@ -45,15 +45,9 @@ body {
   clear: both;
   align-items: center;
   position: relative;
+  margin-top: 50px;
 }
 
-.home h1 p {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
 
 
 
