@@ -35,6 +35,14 @@ body {
   text-decoration: none;
 }
 
+.home {
+  color: white;
+}
+
+.home h1 {
+  display: block;
+}
+
 
 
 
