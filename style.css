@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 
-div.nav ul {
+.nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ div.nav ul {
   width: 100%;
 }
 
-div.nav li a {
+.nav li a {
   float: left;
   display: block;
   color: white;
