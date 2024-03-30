@@ -4,6 +4,12 @@ body {
   overflow-x: hidden;
 }
 
+.nav {
+  text-align: center;
+  background-color: fc048c;
+  color: white;
+}
+
 .nav ul {
   list-style-type: none;
   margin: 0;
