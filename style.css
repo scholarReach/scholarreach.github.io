@@ -10,12 +10,14 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "DynaPuff", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
   background-color: #fc048c;
   position: fixed;
@@ -25,7 +27,7 @@ body {
 
 .nav li a {
   display: inline-block;
-  float: left;
+  float: none;
   color: white;
   text-align: center;
   padding: 14px 16px;
