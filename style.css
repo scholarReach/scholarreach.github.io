@@ -43,10 +43,12 @@ body {
   display: flex;
   align-items: center;
   position: relative;
+  padding: 10px;
 }
 
 .home h1 p {
   display: block;
+  position: relative;
 }
 
 
