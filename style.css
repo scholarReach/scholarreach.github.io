@@ -10,9 +10,9 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "DynaPuff", sans-serif;
-  float: left;
   display: inline;
   justify-content: center;
+  width: auto;
 }
 
 .nav ul {
