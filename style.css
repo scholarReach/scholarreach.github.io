@@ -45,9 +45,14 @@ body {
   clear: both;
   align-items: center;
   position: relative;
-  padding: 10px;
-  vertical-align: middle;
-  height: 100%;
+}
+
+.home h1 p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 
