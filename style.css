@@ -10,7 +10,6 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "Poppins", sans-serif;
-  margin: auto;
 }
 
 .nav ul {
@@ -22,6 +21,7 @@ body {
   top: 0;
   width: 100%;
   text-align: center;
+  margin: auto;
 }
 
 .nav li a {
