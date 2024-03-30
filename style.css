@@ -29,6 +29,7 @@ body {
   align-items: center;
   justify-content: center;
   width: auto;
+  z-index: 1;
 }
 
 .nav li a {
@@ -39,6 +40,7 @@ body {
   padding: 14px 48px;
   text-decoration: none;
   background-color: #fc048c;
+  z-index: 1;
 }
 
 .home {
