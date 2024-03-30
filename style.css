@@ -9,7 +9,7 @@ body {
   text-align: center;
   background-color: #fc048c;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: "DynaPuff", sans-serif;
 }
 
 .nav ul {
@@ -17,14 +17,15 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  background-color: #fc048c;
   position: fixed;
   top: 0;
-  text-align: center;
+  width: 100%;
 }
 
 .nav li a {
-  float: left;
   display: block;
+  float: left;
   color: white;
   text-align: center;
   padding: 14px 16px;
