@@ -10,7 +10,6 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "DynaPuff", sans-serif;
-  float: left;
   display: flex;
   justify-content: center;
 }
