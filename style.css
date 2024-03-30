@@ -40,12 +40,13 @@ body {
 .home {
   color: white;
   text-align: center;
-  display: block;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .home h1 p {
-  display: flex;
-  align-items: center;
+  display: block;
 }
 
 
