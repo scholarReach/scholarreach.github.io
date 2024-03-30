@@ -43,6 +43,10 @@ body {
   z-index: 1;
 }
 
+.nav a {
+  padding: 0;
+}
+
 .home {
   color: white;
   text-align: center;
