@@ -10,6 +10,7 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "Poppins", sans-serif;
+  margin: auto;
 }
 
 .nav ul {
