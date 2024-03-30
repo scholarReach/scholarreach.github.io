@@ -1,6 +1,7 @@
 body {
-  background-color: pink;
+  background-color: fc048c;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .nav ul {
