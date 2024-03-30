@@ -15,16 +15,18 @@ body {
 .nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 0;
   overflow: hidden;
   background-color: #fc048c;
   position: fixed;
   top: 0;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav li a {
-  display: inline-block;
+  display: block;
   float: left;
   color: white;
   text-align: center;
