@@ -10,7 +10,6 @@ body {
   background-color: #fc048c;
   color: white;
   font-family: "Poppins", sans-serif;
-  display: block;
 }
 
 .nav ul {
@@ -21,12 +20,11 @@ body {
   position: fixed;
   top: 0;
   text-align: center;
-  display: block;
 }
 
 .nav li a {
   float: left;
-  display: block;
+  display: inline;
   color: white;
   text-align: center;
   padding: 14px 16px;
