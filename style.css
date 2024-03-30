@@ -2,12 +2,14 @@ body {
   background-color: #fc048c;
   margin: 0;
   overflow-x: hidden;
+  font-family: "DynaPuff", sans-serif;
 }
 
 .nav {
   text-align: center;
   background-color: #fc048c;
   color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav ul {
