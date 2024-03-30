@@ -12,6 +12,7 @@ body {
   font-family: "DynaPuff", sans-serif;
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .nav ul {
@@ -23,7 +24,6 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  float: left;
   display: inline-block;
 }
 
