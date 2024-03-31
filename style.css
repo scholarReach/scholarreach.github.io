@@ -1,20 +1,45 @@
+:root {
+  --bright-pink: #f5118e;
+  --light-pink: #fd8dca;
+  --white: #ffffff;
+  --body-font: "DynaPuff", sans-serif;
+  --nav-font: "Poppins", sans-serif;
+}
+
 body {
-  background-color: #fc048c;
   margin: 0;
   overflow-x: hidden;
-  font-family: "DynaPuff", sans-serif;
+  font-family: var(--body-font);
+}
+
+#pages section {
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav li a:after {
+  content: '|';
+  padding-left: 10px;
+  z-index: -1;
+  height: 100%
+}
+
+.nav li:last-child a:after {
+  content: none;
 }
 
 .nav {
   text-align: center;
-  background-color: #fc048c;
+  background-color: var(--bright-pink);
   color: white;
-  font-family: "DynaPuff", sans-serif;
+  font-family: "Poppins", sans-serif;
   justify-content: center;
-  width: auto;
+  width: 100%;
+  height: auto;
   display: flex;
   padding: 10px;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .nav ul {
@@ -22,13 +47,14 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #fc048c;
+  background-color: var(--bright-pink);
   position: fixed;
   top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: auto;
+  width: 100%;
   z-index: 1;
 }
 
@@ -37,15 +63,16 @@ body {
   float: left;
   color: white;
   text-align: center;
-  padding: 14px 48px;
+  padding: 14px 5px;
   text-decoration: none;
-  background-color: #fc048c;
+  background-color: var(--bright-pink);
+  font-family: var(--nav-font);
   z-index: 1;
 }
 
 .nav a {
   padding: 0;
-  width: 100% !important; 
+  width: 100% !important;
   height: 100% !important;
 }
 
@@ -57,10 +84,32 @@ body {
   align-items: center;
   position: relative;
   margin-top: 20%;
+  height: 100vh;
 }
 
+#about {
+  background-color: var(--light-pink);
+}
 
+#timeline {
+  background-color: var(--white);
+}
 
+#team {
+  background-color: var(--light-pink);
+}
 
+#stats {
+  background-color: var(--white);
+}
 
+#contact {
+  background-color: var(--light-pink);
+}
 
+#pages section{
+  padding-top: 48px;
+  margin-top: -48px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
