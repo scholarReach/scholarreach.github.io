@@ -29,6 +29,10 @@ body {
   height: 100%
 }
 
+.nav li a:hover:after {
+  color: white;
+}
+
 .nav li:last-child a:after {
   content: none;
 }
@@ -81,6 +85,14 @@ body {
   height: 100% !important;
 }
 
+.nav a:hover{
+  color: brown;
+}
+
+.nav a:active{
+  color: black;
+}
+
 .home {
   color: white;
   text-align: center;
@@ -91,6 +103,7 @@ body {
   margin-top: 20%;
   height: 100vh;
 }
+
 
 #home{
   background-color: var(--bright-pink);
