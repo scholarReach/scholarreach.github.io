@@ -104,13 +104,33 @@ body {
   height: 100vh;
 }
 
-
 #home{
   background-color: var(--bright-pink);
 }
 
 #about {
   background-color: var(--light-pink);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.aboutleft {
+  margin-left: 10%;
+  width: 70%;
+}
+
+.aboutleft div {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: var(--bright-pink);
+  border-radius: 20px;
+}
+
+#about h1 {
+  font-size: 3em;
+  width: 100%;
+  text-align: center;
 }
 
 #timeline {
