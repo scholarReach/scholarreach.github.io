@@ -133,6 +133,63 @@ body {
   text-align: center;
 }
 
+#mission{
+  color: var(--bright-pink);
+  text-align: center;
+  display: flex;
+}
+
+.missionleft{
+  margin-left: 10%;
+  width: 30%;
+}
+
+.missionleft .title{
+  background-color: var(--white);
+  font-size: 20px;
+  border-radius: 20px;
+  padding-top: 3.5%;
+  margin-top: 15%;
+  height: 15%;
+}
+
+.missionleft .title div{
+  position: relative;
+  background-color: var(--bright-pink);
+}
+
+.missionleft .top{
+  margin-left: 19%;
+  width: 48%;
+  height: 10px;
+}
+
+.missionleft .diaganol{
+  transform: rotate(330deg);
+  width: 48%;
+  height: 5px;
+}
+
+.missionleft .bottom{
+
+}
+
+
+.missionleft .statement{
+  background-color: var(--white);
+  border-radius: 20px;
+  margin-top: 10px;
+  padding-top: 2.5%;
+  height: 30%;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#mission img{
+  margin-top: 4.5%;
+  margin-left: 15%;
+}
+
 #timeline {
   background-color: var(--white);
 }
