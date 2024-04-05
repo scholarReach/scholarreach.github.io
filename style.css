@@ -198,6 +198,29 @@ body {
   background-color: var(--light-pink);
 }
 
+#faq{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#faq .body{
+  width: 90%;
+  height: 60%;
+  border-style: solid;
+  border-width: 10px;
+  color: var(--bright-pink);
+  background-color: var(--white);
+}
+
+#faq h1{
+  
+}
+
+#faq .questions{
+
+}
+
 #stats {
   background-color: var(--white);
 }
