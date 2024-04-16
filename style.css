@@ -200,6 +200,17 @@ body {
   color: var(--white);
 }
 
+#timeline .circle {
+  align-content: center;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  font-size: 3em;
+  border-radius: 100%;
+  background-color: var(--bright-pink);
+  color: var(--white);
+}
+
 #timeline .timeline {
   display: flex;
   justify-content: center;
