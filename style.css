@@ -244,6 +244,29 @@ body {
   text-align: center;
 }
 
+#timeline .event .triangle {
+  position: relative;
+  left: 25%;
+  bottom: 50px;
+  width: 0;
+  height: 0;
+  border: solid 7px;
+  border-color: var(--black) transparent transparent transparent;
+}
+
+#timeline :nth-child(2 of .event) {
+  border-top: 50px;
+}
+
+#timeline .line {
+  position: relative;
+  bottom: 50px;
+  height: 5px;
+  width: 300px;
+  background-color: var(--black);
+  z-index: 2;
+}
+
 #team {
   background-color: var(--light-pink);
 }
